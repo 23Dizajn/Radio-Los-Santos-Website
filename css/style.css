@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+  body {
+    background-color: #111115;
+    overflow-x: hidden;
+  }
+  .parallax {
+    perspective: 1px;
+    perspective-origin: center;
+    margin-top: 0;
+    height: 100vh;
+  }
+  
+  .parallax .group {
+    position: relative;
+      height: 100vh;
+    transform-style: preserve-3d;
+  }
+  
+  .parallax .layer {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #city1 {
+    fill: #111115;
+    transform: translateZ(.25px) scale(.75) translateY(-1vh);
+  }
+  
+  #city2 {
+    fill: #12161e;
+    transform: translateZ(0px) scale(1) translateY(-1vh);
+  }
+  
+  #city3 {
+    fill: #19202f;
+    transform: translateZ(-.25px) scale(1.25) translateY(-1vh);
+  }
+  
+  #city4 {
+    fill: #222032;
+    transform: translateZ(-.5px) scale(1.5) translateY(-1vh);
+  }
+  
+  #city5 {
+    fill: #15172a;
+    transform: translateZ(-.75px) scale(1.75) translateY(-1vh);
+  }
+  
+  #mountain1 {
+    fill: #202a5c;
+    transform: translateZ(-2.25px) scale(3.25) translateY(-1vh);
+  }
+  
+  #mountain2 {
+    fill: #4a4d82;
+    transform: translateZ(-2.5px) scale(3.5) translateY(-1vh);
+  }
+  
+  #mountain3 {
+    fill: #5f5d99;
+    transform: translateZ(-3px) scale(4) translateY(-10vh);
+      height: 50vh;
+  }
+  
+  #mountain4 {
+    fill: #8a7d9e;
+    transform: translateZ(-3.5px) scale(4.5) translateY(-20vh);
+      height: 30vh;
+  }
+  
+  #sun {
+    fill: #ff7e00;
+    transform: translateZ(-6px) scale(7) translateY(-25vh);
+      height: 25vh;
+  }
+  #moon {
+    fill: #ffe1bd;
+    transform: translateZ(-6px) scale(7) translateY(-25vh);
+      height: 25vh;
+  }
+  
+  .city2-front {
+    background: #12161e;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    margin-top: -5px;
+  }
+  
+  .city-front {
+    position: relative;
+    margin-top: -5px;
+    background-color: #111115;
+    width: 100vw;
+    height: 125vh;
+  }
+  
+  nav {
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  nav .line {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0 0 0;
+    background: #FF1847;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: flex;
+  }
+  nav ul li {
+    margin: 0 40px 0 0;
+    opacity: 0.4;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  nav ul li:hover {
+    opacity: 0.7;
+  }
+  nav ul li.active {
+    opacity: 1;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+  }

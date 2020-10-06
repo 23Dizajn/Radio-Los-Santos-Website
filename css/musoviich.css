@@ -1,0 +1,140 @@
+﻿/* Importi */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Leveli Deskripcija */
+h1.level-1 {
+    width: 100%;
+    font-family: Roboto,sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 300%;
+    margin: 0;
+}
+p.level-1 {
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 150%;
+    margin: 0;
+}
+
+h1.level-2 {
+    width: 100%;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 200%;
+    margin: 0;
+}
+p.level-2 {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin: 0;
+}
+
+h1.level-3 {
+    width: 100%;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 180%;
+    margin: 0;
+}
+p.level-3 {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin: 0;
+}
+p.level-4 {
+    font-family: Roboto,sans-serif;
+    font-weight: 200;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 70%;
+    margin: 0;
+}
+p.s80 {
+    width: 80%;
+    margin: auto;
+}
+p.s70 {
+    width: 70%;
+    margin: auto;
+}
+p.s60 {
+    width: 60%;
+    margin: auto;
+}
+p.s50 {
+    width: 50%;
+    margin: auto;
+}
+p.s40 {
+    width: 40%;
+    margin: auto;
+}
+p.s30 {
+    width: 30%;
+    margin: auto;
+}
+p.s20 {
+    width: 20%;
+    margin: auto;
+}
+/* Sekcija */
+section.sekcija {
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+section.sekcija-top {
+    padding-top: 3%;
+}
+section.sekcija-bottom {
+    padding-bottom: 3%;
+}
+
+.advertis-left {
+    left: 50%;
+    margin-left: -1180px;
+    position: fixed;
+    text-align: right;
+    top: 25%;
+    width: 500px;
+}
+
+.advertis-right {
+    left: 50%;
+    margin-left: 690px;
+    position: fixed;
+    top: 25%;
+    width: 500px;
+}
+/* Responsive Styles */
+@media (max-width: 1350px) and (min-width: 1024px) {
+
+    .advertis-left,
+    .advertis-right {
+        display: none;
+    }
+}
+
+/* Deskripcija*/
+.full-description img {
+    height: auto;
+    max-width: 100%;
+}
+.full-description video {
+    max-width: 100%;
+    height: auto;
+    width: 1130px;
+    height: 450px;
+}
